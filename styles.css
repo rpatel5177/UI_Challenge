@@ -270,10 +270,10 @@ ul.tabs li.current {
 
 .modalDialog > div {
     width: 400px;
-    height: 205px;
+    height: auto;
     position: relative;
     margin: 10% auto;
-    padding: 35px 25px;
+    padding: 15px 25px;
     background: #fff;
     background: #fff
 }
@@ -382,7 +382,12 @@ footer span {
     padding-top: 20px;
     display: inline-block;
 }
-
+ #openModal .modalContainer .resp_login{
+        width: 135px;
+        float: right;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
 
 /********************/
 
@@ -448,11 +453,8 @@ footer span {
     span.tableLegend {
         font-size: 12px;
     }
-    a.loginButton {
-        display: block;
-        width: 94%;
-        margin-left: 10px;
-        margin-right: 10px;
+    #rightColumn .resp_login{
+        margin: 0 10px;
     }
     .modalDialog > div {
         width: auto;
@@ -460,6 +462,12 @@ footer span {
     }
     #openModal input {
         width: 100%;
+    }
+    #openModal .modalContainer .resp_login{
+        width: 135px;
+        float: right;
+        padding-right: 0px;
+        padding-top: 10px;
     }
     footer{
         height: 100%;
